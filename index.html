@@ -36,7 +36,10 @@
                 </li>
             </ul>
         </div>
-        <a class=" text-xl text-blue-500 font-bold">DEWDROPOLOGY</a>
+        <div class="flex">
+            <img src="./dewdrop.jpeg" alt="logo" class="max-w-[50px]">
+            <a class=" text-xl text-blue-500 font-bold">DEWDROPOLOGY</a>
+        </div>
         <div class="hidden sm:flex">
             <ul class="menu menu-horizontal px-1 font-semibold playpen-sans">
                 <li onclick="scrollToSection('services')">
@@ -272,7 +275,7 @@
             const message = document.getElementById('message').value;
 
             // WhatsApp number (with country code, without + or spaces)
-            const phoneNumber = '919019334428';
+            const phoneNumber = '919152122388';
             const textMessage = `Hi, I am ${name}. ${message}`;
             const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(textMessage)}`;
             window.open(whatsappURL, '_blank');
